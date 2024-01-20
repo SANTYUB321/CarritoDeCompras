@@ -249,7 +249,7 @@ function filterProducts(event) {
   responseFilter.map(moto => addCard(moto))
 }
 
-
+save();
 function importImg(event) {
   const currentImg = event.target.files[0];
   const objetURL =URL.createObjectURL(currentImg);
