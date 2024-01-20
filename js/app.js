@@ -272,38 +272,38 @@ addCard(newMoto)
 
 }
 
-//-------------------------------------------------------
-//   const imgCard = document.createElement('img')
-//   imgCard.src = imgSelected.image
-//   imgCard.alt = imgSelected.title
+-------------------------------------------------------
+  const imgCard = document.createElement('img')
+  imgCard.src = imgSelected.image
+  imgCard.alt = imgSelected.title
 
 
-//   const div2 = document.createElement('div')
-//   div2.classList.add('info-product')
+  const div2 = document.createElement('div')
+  div2.classList.add('info-product')
 
-//   const title = document.createElement("h2")
-//   title.textContent= newNewMoto.title
-//   title.classList.add('title')
+  const title = document.createElement("h2")
+  title.textContent= newNewMoto.title
+  title.classList.add('title')
 
-//   const price = document.createElement('p')
-//   price.textContent= '$'+newNewMoto.price
-//   price.classList.add('price')
+  const price = document.createElement('p')
+  price.textContent= '$'+newNewMoto.price
+  price.classList.add('price')
 
-//   const carr = document.createElement('button')
-//   carr.textContent= 'agregar al carrito';
-//   carr.classList.add('btn-car')
+  const carr = document.createElement('button')
+  carr.textContent= 'agregar al carrito';
+  carr.classList.add('btn-car')
 
 
-//   card.appendChild(imgCard)
-//   card.appendChild(div2)
-//   div2.appendChild(title)
-//   div2.appendChild(price)
-//   div2.appendChild(carr)
+  card.appendChild(imgCard)
+  card.appendChild(div2)
+  div2.appendChild(title)
+  div2.appendChild(price)
+  div2.appendChild(carr)
 
-// // card.innerHTML= container.title +" "+ container.price +" "+ container.image+" " + container.carr ;
-//   container.appendChild(card)
-//  });
-// }
+// card.innerHTML= container.title +" "+ container.price +" "+ container.image+" " + container.carr ;
+  container.appendChild(card)
+ });
+}
 
  function showModal() {
   modal.style.display ='flex';
