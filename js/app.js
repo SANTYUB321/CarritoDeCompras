@@ -505,11 +505,11 @@ function loading(){
   products.forEach(product => console.log(product));
 }
 
-// function save2() {
-//   localStorage.setItem("infoCard", JSON.stringify(allProducts))
-// }
-// loading2();
-// function loading2(){
-//   allProducts= JSON.parse(localStorage.getItem("infoCard"))
-//   allProducts.forEach(product => console.log(product));
-// }
+function save2() {
+  localStorage.setItem("infoCard", JSON.stringify(allProducts))
+}
+loading2();
+function loading2(){
+  allProducts= JSON.parse(localStorage.getItem("infoCard"))
+  allProducts.forEach(product => console.log(product));
+}
