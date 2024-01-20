@@ -219,7 +219,7 @@ btnCreate = document.getElementById('btn-create');
 let imgSelected = "";
 let idProduct = 0;
 
-// save();
+save();
 const modal = document.querySelector('.modal');
 const closeModal = document.querySelector('.close-modal');
 const newProduct = document.getElementById('new-product');
